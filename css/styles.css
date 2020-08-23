@@ -12,6 +12,10 @@ body {
   font-family: "Roboto Slab", sans-serif;
   color: #333;
 }
+header {
+  background-color: #ddd;
+  box-shadow: 0 3px 3px 0 #ddd;
+}
 .container {
   max-width: 1130px;
   padding: 0 15px;
