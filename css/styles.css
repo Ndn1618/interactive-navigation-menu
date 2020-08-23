@@ -32,3 +32,25 @@ header {
   text-decoration: none;
   color: #333;
 }
+.site-nav__ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-nav__link {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+.site-nav__link:hover {
+  text-shadow: 0 0 1px #333;
+}
+.active .site-nav__link {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 3px 3px 0 #333;
+}
